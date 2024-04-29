@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Estilos gerais */
+body {
+  font-family: "IBM Plex Mono";
+}
+
+header {
+  background: linear-gradient(to right, rgb(13, 73, 201) 0%, rgb(104, 102, 102) 100%);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  display: flex;
+  font-family: "Press Start 2P";
+  margin-bottom: 8px;
+  justify-content: center;
+}
+
+p {
+  text-align: left;
+}
+
+/* Seção "Meus Produtos" */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.card {
+  background: rgb(13, 73, 201);
+  color: #fff;
+  width: 196px;
+  height: 258px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 3px solid #000;
+  align-items: center;
+  top: 20px;
+  left: 20px;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: -12px 9px 5px -4px rgba(0, 0, 0, 0.39);
+}
+
+.card:hover {
+  background-color: #1d07e0; 
+  color: #fff; 
+}
+
+
+.card p {
+  margin: 10px 10px;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
+  border-radius: 10px;
+  border: 3px;
+  gap: 8px;
+  margin-bottom: 5px;
+  border: 3px solid #000;
+}
+
+.meus-produtos {
+  text-align: center;
+}
+
+.produtos {
+  display: grid;
+  width: 678px;
+  height: auto;
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px 0px;
+  padding: 20px;
+  overflow: auto;
+  padding-top: 40px;
+  box-shadow: -12px 9px 5px -4px rgba(0, 0, 0, 0.39);
+}
+
+.produtos img {
+  width: 176px;
+  height: 174px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card-container--value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.card-container--value img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lixo {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.lixo:hover {
+  background-color: #5e0779; 
+  color: #fff; 
+}
+
+/* Seção "Adicionar Produtos" */
+input {
+  font-family: "IBM Plex Mono";
+  border-radius: 50px;
+  width: 392px;
+  height: 58px;
+  border: 3px solid #03318c;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+button {
+  font-family: "IBM Plex Mono";
+  font-size: 20px;
+  font-weight: 500;
+  width: 188px;
+  height: 55px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #005194;
+  color: #fff; 
+}
+
+.adicionar-produtos {
+  padding-left: 30px;
+}
+
+.guardar {
+  background-color: #03318c;
+  color: #fff;
+  border: 3px solid #03318c;
+}
+
+.limpar {
+  background-color: #ffff;
+  color: #03318c;
+  border: 3px solid #03318c;
+}
+
+#form-produto{
+  max-width: 400px;
+}
+
+#form-produto button {
+  cursor: pointer;
+}
+
+footer {
+  background: linear-gradient(to right, rgb(13, 73, 201) 0%, rgb(104, 102, 102) 100%);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 64px 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: wrap;
+    flex-direction: column-reverse;
+    overflow: auto;
+  }
+
+  #form-produto {
+    padding-bottom: 60px;
+    width: Fixed (430px) px;
+    height: 517px;
+    top: 60px;
+    padding: 40px 0px 0px 0px;
+    gap: 40px;
+    opacity: 0px;
+  }
+}

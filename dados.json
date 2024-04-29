@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/darth.png",
+        "produto": "Darth Vader",
+        "valor": 85.0
+    },
+    {
+        "id": 2,
+        "imagem": "img/yoda.png",
+        "produto": "Mestre Yoda",
+        "valor": 92.0
+    },
+    {
+        "id": 3,
+        "imagem": "img/Shuba.png",
+        "produto": "Chewbacca",
+        "valor": 70.0
+    },
+    {
+        "id": 4,
+        "imagem": "img/r2d2.png",
+        "produto": "R2D2",
+        "valor": 60.0
+    },
+    {
+        "id": 5,
+        "imagem": "img/bb8.png",
+        "produto": "BB8",
+        "valor": 65.0
+    },
+    {
+        "id": 6,
+        "imagem": "img/storm.png",
+        "produto": "Stormtrooper",
+        "valor": 70.0
+    },
+    {
+        "id": 7,
+        "imagem": "img/nave.png",
+        "produto": "Nave 1",
+        "valor": 45.0
+    },
+    {
+        "id": 8,
+        "imagem": "img/nave2.png",
+        "produto": "Nave 2",
+        "valor": 45.0
+    },
+    {
+        "id": 9,
+        "imagem": "img/nav3.png",
+        "produto": "Nave 3",
+        "valor": 45.0
+    }
+]
